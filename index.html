@@ -25,8 +25,17 @@
 <body>
   <canvas id="confettiCanvas"></canvas>
   <main class="card">
-    <div style="text-align: center; margin-bottom: 15px;">
-  <img src="vd.jpeg" alt="❤️" style="width: min(200px, 60vw); border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.15); border: 5px solid white;">
+  <div style="position: relative; width: min(200px, 60vw); margin: 0 auto 20px;">
+    
+    <img src="vd.jpeg" alt="❤️" style="width: 100%; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.15); border: 5px solid white; display: block;">
+
+    <svg style="position: absolute; top: -20px; right: -25px; width: 90px; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.2));" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+      <path d="M90 120 C90 70 140 40 190 60 C240 40 290 70 290 120 C290 180 240 210 190 210 C140 210 90 180 90 120Z" fill="#f7c7a1"/>
+      <circle cx="160" cy="130" r="8" fill="#333"/>
+      <circle cx="220" cy="130" r="8" fill="#333"/>
+      <path d="M250 50 C250 33 270 25 282 38 C294 25 314 33 314 50 C314 78 282 92 282 106 C282 92 250 78 250 50Z" fill="#ff4d7d"/>
+    </svg>
+    
   </div>
     <h1>Andrea, will you be my valentine?</h1>
     <section class="button-zone" id="zone">
@@ -80,4 +89,5 @@
   </script>
 </body>
 </html>
+
 
